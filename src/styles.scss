@@ -1,0 +1,29 @@
+// Reset
+
+
+*{
+
+margin: 0;
+padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style-type: none;
+}
+
+//Globales
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Poppins&display=swap');
+
+body{
+
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+background-color: #f5f3f5;
+background-image: url("https://www.transparenttextures.com/patterns/gray-lines.png");
+}
+

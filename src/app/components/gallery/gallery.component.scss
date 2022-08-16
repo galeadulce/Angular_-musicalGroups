@@ -1,0 +1,39 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+   
+    
+
+    & figure {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 380px;
+      border: solid 3px black;
+      border-radius: 15px;
+      margin: 15px;
+
+      & img {
+        width: 90%;
+        height: 360px;
+        object-fit: cover;
+        border-radius: 15px;
+        margin: 10px;
+        border: solid 3px black;
+       
+       
+    }
+  }
+  }
+}

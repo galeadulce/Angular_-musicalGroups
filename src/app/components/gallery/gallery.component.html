@@ -1,0 +1,19 @@
+<section class= "gallery">
+    <h2>{{galleryInfo.title}}</h2>
+    <article>
+        <ul>
+            <li *ngFor ="let disco of galleryInfo.discos">
+                <figure>
+                    <h3>{{disco.artist}}</h3>
+                    
+                    <p>Album : {{disco.album}}</p>
+                    <p>Year: {{disco.year}}</p>
+                    <p>Location : {{disco.location}}</p>
+                    <p>Gender : {{disco.gender}}</p>
+                    <img src="{{disco.image.src}}" alt="{{disco.image.alt}}">
+                   
+                </figure>
+            </li>
+        </ul>
+    </article>
+</section>

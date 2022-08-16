@@ -1,0 +1,31 @@
+nav{
+
+    border-bottom: 2px solid black;
+    
+    
+    
+
+    ul{
+        
+        height: 7vh;
+        background-color: #576ca8;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 22px;
+        background-image: url("https://www.transparenttextures.com/patterns/gray-lines.png");
+
+        a{
+            color: whitesmoke;
+            text-transform: uppercase;
+            transition: all 0.5s;
+
+            &:hover{
+                color: black;
+            }
+        }
+        
+    }
+
+
+}
